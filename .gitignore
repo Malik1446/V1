@@ -3,3 +3,8 @@ node_modules/
 .expo/
 .vscode/
 .DS_Store
+node_modules/
+android/app/build/
+ios/build/
+*.apk
+*.so

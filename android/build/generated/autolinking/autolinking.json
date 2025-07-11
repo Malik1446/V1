@@ -9,7 +9,7 @@
       "platforms": {
         "ios": {
           "podspecPath": "C:\\Users\\ahst3\\Desktop\\V1\\node_modules\\react-native-safe-area-context\\react-native-safe-area-context.podspec",
-          "version": "5.5.1",
+          "version": "5.5.2",
           "configurations": [],
           "scriptPhases": []
         },

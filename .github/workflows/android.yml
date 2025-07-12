@@ -10,32 +10,20 @@ jobs:
   build:
     name: Build Release APK
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-           uses: actions/checkout@v3
-         - name: Create local.properties
-           run: echo "sdk.dir=$ANDROID_SDK_ROOT" > android/local.properties
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Set up JDK 17
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '17'
-
-      - name: Install Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm install
-
-      - name: Bundle JS for release
-        run: |
-          npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
 
       - name: Grant execute permission for gradlew
         run: chmod +x android/gradlew
@@ -44,9 +32,7 @@ jobs:
         run: cd android && ./gradlew assembleRelease
 
       - name: Upload APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: app-release.apk
           path: android/app/build/outputs/apk/release/app-release.apk
-
-# Trigger build

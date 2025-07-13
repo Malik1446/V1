@@ -1,8 +1,0 @@
-# ninja log v5
-3	59	0	C:/Users/ahst3/Desktop/Munfis_Final/Munfis/MunfisApp/android/app/.cxx/RelWithDebInfo/524a2861/x86_64/CMakeFiles/cmake.verify_globs	a4076d9a3e84c879
-24	4803	7735321467334398	CMakeFiles/appmodules.dir/adbe072328c1180486dd8398e1958b01/Munfis/MunfisApp/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	63635843dcabffa1
-5385	6016	7735321479549684	C:/Users/ahst3/Desktop/Munfis_Final/Munfis/MunfisApp/android/app/build/intermediates/cxx/RelWithDebInfo/524a2861/obj/x86_64/libappmodules.so	5c148d9cf109a84a
-0	27	0	clean	e336c9386e9b10cb
-54	1084	7735545623032397	build.ninja	c8a9b18a09a1037a
-155	5385	7735321473172722	CMakeFiles/appmodules.dir/OnLoad.cpp.o	c6635b4e3f7e16bc
-3	54	0	C:/Users/ahst3/Desktop/Munfis_Final/Munfis/MunfisApp/android/app/.cxx/RelWithDebInfo/524a2861/x86_64/CMakeFiles/cmake.verify_globs	a4076d9a3e84c879

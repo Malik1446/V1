@@ -1,4 +1,0 @@
-C:/Users/ahst3/Desktop/Munfis_Final/Munfis/MunfisApp/android/app/.cxx/RelWithDebInfo/524a2861/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
-C:/Users/ahst3/Desktop/Munfis_Final/Munfis/MunfisApp/android/app/.cxx/RelWithDebInfo/524a2861/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
-C:/Users/ahst3/Desktop/Munfis_Final/Munfis/MunfisApp/android/app/.cxx/RelWithDebInfo/524a2861/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
-C:/Users/ahst3/Desktop/Munfis_Final/Munfis/MunfisApp/android/app/.cxx/RelWithDebInfo/524a2861/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

@@ -542,8 +542,8 @@
     "android": {
       "sourceDir": "C:\\Users\\ahst3\\Desktop\\V1\\android",
       "appName": "app",
-      "packageName": "com.munfisapp",
-      "applicationId": "com.munfisapp",
+      "packageName": "com.v1",
+      "applicationId": "com.v1",
       "mainActivity": ".MainActivity",
       "assets": []
     }

@@ -44,6 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("C:/Users/ahst3/Desktop/V1/android/app/.cxx/RelWithDebInfo/3i4i155p/arm64-v8a/rnreanimated_autolinked_build/cmake_install.cmake")
   include("C:/Users/ahst3/Desktop/V1/android/app/.cxx/RelWithDebInfo/3i4i155p/arm64-v8a/safeareacontext_autolinked_build/cmake_install.cmake")
   include("C:/Users/ahst3/Desktop/V1/android/app/.cxx/RelWithDebInfo/3i4i155p/arm64-v8a/rnscreens_autolinked_build/cmake_install.cmake")
 

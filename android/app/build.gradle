@@ -41,17 +41,17 @@ android {
     }
 }
 
-dependencies {
-    // لا تكتب النسخة هنا، النسخة تُدار تلقائيًا من React Native
-    implementation("com.facebook.react:react-android")
-    if (hermesEnabled != null && hermesEnabled.toBoolean()) {
-        implementation("com.facebook.react:hermes-android")
-    } else {
-        implementation jscFlavor
-    }
+repositories {
+    mavenCentral()
+    google()
 }
 
-// أضف هذا الحل لمشكلة Unknown Kotlin JVM target: 21 في نهاية الملف فقط!
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation("com.facebook.react:react-android:0.73.4") // ضع هنا رقم نسخة React Native لديك
+    implementation("com.facebook.react:hermes-android:0.73.4") // إذا كنت تستخدم Hermes
+}
+
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
     kotlinOptions {
         jvmTarget = "1.8"
